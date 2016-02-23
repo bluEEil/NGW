@@ -1,4 +1,4 @@
-System.register(['angular2/core', './log_operations/log.operations'], function(exports_1) {
+System.register(['angular2/core', './drawer-panel.component', './log_operations/log.operations'], function(exports_1) {
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
         if (typeof Reflect === "object" && typeof Reflect.decorate === "function") return Reflect.decorate(decorators, target, key, desc);
         switch (arguments.length) {
@@ -10,12 +10,15 @@ System.register(['angular2/core', './log_operations/log.operations'], function(e
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, log_operations_1;
+    var core_1, drawer_panel_component_1, log_operations_1;
     var AppComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
+            },
+            function (drawer_panel_component_1_1) {
+                drawer_panel_component_1 = drawer_panel_component_1_1;
             },
             function (log_operations_1_1) {
                 log_operations_1 = log_operations_1_1;
@@ -29,8 +32,8 @@ System.register(['angular2/core', './log_operations/log.operations'], function(e
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: '<h1>My First Angular 2 App</h1><log-operation></log-operation>',
-                        directives: [log_operations_1.LogOperations]
+                        template: '<h1>My First Angular 2 App</h1><log-operation></log-operation><ngw-drawer-panel></ngw-drawer-panel>',
+                        directives: [log_operations_1.LogOperations, drawer_panel_component_1.DrawerPanelComponent]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
