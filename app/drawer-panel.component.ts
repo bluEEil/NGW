@@ -13,7 +13,7 @@ import {OnInit} from 'angular2/core';
     <div drawer><h1>drawer section</h1></div>
         <div main>
             <paper-toolbar class="main">
-                <h1>My toolbar</h1>
+                <paper-icon-button icon="menu"></paper-icon-button>
             </paper-toolbar>
         </div>
 
@@ -22,25 +22,25 @@ import {OnInit} from 'angular2/core';
 })
 export class DrawerPanelComponent implements OnInit{
 
-    private _bIsDrawerOpen: boolean;
-
-    constructor() {
-        this._bIsDrawerOpen = true;
-    }
+    //private _bIsDrawerOpen: boolean;
+    //
+    //constructor() {
+    //    this._bIsDrawerOpen = true;
+    //}
     ngOnInit():any {
 
     }
-    toggleDrawer() : void {
-
-        var drawer : any = document.querySelector("#menuDrawerPanel");
-
-        if (this._bIsDrawerOpen) {
-            drawer.closeDrawer();
-
-        }
-        else
-            drawer.openDrawer();
-
-        this._bIsDrawerOpen = !this._bIsDrawerOpen;
-    }
+    //toggleDrawer() : void {
+    //
+    //    var drawer : any = document.querySelector("#menuDrawerPanel");
+    //
+    //    if (this._bIsDrawerOpen) {
+    //        drawer.closeDrawer();
+    //
+    //    }
+    //    else
+    //        drawer.openDrawer();
+    //
+    //    this._bIsDrawerOpen = !this._bIsDrawerOpen;
+    //}
 }

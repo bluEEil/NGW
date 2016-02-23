@@ -17,7 +17,9 @@
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="bower_components/material-design-lite/material.min.js"></script>
 
-
+    <!-- The webcomponent polyfills for polyer +
+         configuring polyer to work with real shadow dom and not shady SO ANGULAR 2
+         COMPONENT CAN WORK WITH POLYMER-->
     <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
     <script>
         window.Polymer = window.Polymer || {};
@@ -26,13 +28,14 @@
 
 
     <!-- 1. Load webcomponents-lite.min.js for polyfill support     -->
-    <link rel="import" href="bower_components/polymer/polymer.html"></link>
-    <link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html"></>
-    <link rel="import" href="bower_components/paper-header-panel/paper-header-panel.html"></>
-    <link rel="import" href="bower_components/paper-styles/paper-styles.html"></>
-
-    <!-- 2. Use an HTML Import to bring in some elements. -->
+    <link rel="import" href="bower_components/polymer/polymer.html">
+    <link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html">
+    <link rel="import" href="bower_components/paper-header-panel/paper-header-panel.html">
+    <link rel="import" href="bower_components/paper-styles/paper-styles.html">
     <link rel="import" href="bower_components/paper-drawer-panel/paper-drawer-panel.html">
+    <link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+    <link rel="import" href="bower_components/iron-icons">
+    <link rel="import" href="bower_components/paper-fab/paper-fab.html">
 
     <!-- 2. Configure SystemJS -->
     <script>
