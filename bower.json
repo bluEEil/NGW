@@ -25,6 +25,7 @@
     "tests"
   ],
   "dependencies": {
-    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#1.0.0"
+    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#1.0.0",
+    "material-design-lite": "^1.1.1"
   }
 }
