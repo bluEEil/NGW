@@ -29,7 +29,7 @@ System.register(['angular2/core'], function(exports_1) {
                 DrawerPanelComponent = __decorate([
                     core_1.Component({
                         selector: 'ngw-drawer-panel',
-                        template: "\n\n    <paper-drawer-panel id=\"menuDrawerPanel\">\n\n    <div drawer><h1>drawer section</h1></div>\n        <div main>\n            <paper-toolbar class=\"main\">\n                <paper-icon-button icon=\"menu\"></paper-icon-button>\n            </paper-toolbar>\n        </div>\n\n    </paper-drawer-panel>\n    "
+                        template: "\n\n    <paper-drawer-panel id=\"menuDrawerPanel\">\n\n    <div drawer><h1>drawer section</h1></div>\n        <div main>\n            <paper-toolbar class=\"main\">\n                <paper-icon-button icon=\"menu\" paper-drawer-toggle></paper-icon-button>\n            </paper-toolbar>\n        </div>\n\n    </paper-drawer-panel>\n    "
                     }), 
                     __metadata('design:paramtypes', [])
                 ], DrawerPanelComponent);
