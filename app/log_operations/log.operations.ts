@@ -14,7 +14,7 @@ import {IDataTable} from '../interfaces/IDataTable';
 export class LogOperations {
 
     // Data members
-    arrData: IDataTable[];
+    public arrData: IDataTable[];
 
     constructor() {
         this.arrData = [];
