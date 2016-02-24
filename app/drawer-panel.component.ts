@@ -33,6 +33,6 @@ export class DrawerPanelComponent{
         debugger;
         var drawer : any = document.querySelector("#menuDrawerPanel");
 
-        //drawer.togglePanel();
+        drawer.togglePanel();
     }
 }
