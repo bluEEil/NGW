@@ -5,7 +5,7 @@ import {LogOperations} from './log_operations/log.operations';
 
 @Component({
     selector: 'my-app',
-    template: '<ngw-drawer-panel></ngw-drawer-panel>',
+    template: '<log-operation></log-operation>',
     directives:[LogOperations, DrawerPanelComponent]
 })
 export class AppComponent implements OnInit{

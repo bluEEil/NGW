@@ -39,6 +39,7 @@
     "iron-component-page": "PolymerElements/iron-component-page#1.0.0",
     "iron-iconset": "PolymerElements/iron-iconset#1.0.0",
     "iron-iconset-svg": "PolymerElements/iron-iconset-svg#1.0.0",
-    "paper-behaviors": "PolymerElements/paper-behaviors#1.0.0"
+    "paper-behaviors": "PolymerElements/paper-behaviors#1.0.0",
+    "paper-datatable": "^0.9.8"
   }
 }

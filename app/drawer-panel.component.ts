@@ -24,6 +24,6 @@ export class DrawerPanelComponent{
 
     toggleDrawer() : void {
 
-        drawer.togglePanel();
+        //drawer.togglePanel();
     }
 }
