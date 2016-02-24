@@ -27,7 +27,7 @@ System.register(['angular2/core', './log_operations/log.operations'], function(e
                 DrawerPanelComponent.prototype.toggleDrawer = function () {
                     debugger;
                     var drawer = document.querySelector("#menuDrawerPanel");
-                    //drawer.togglePanel();
+                    drawer.togglePanel();
                 };
                 DrawerPanelComponent = __decorate([
                     core_1.Component({
